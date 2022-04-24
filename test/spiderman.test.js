@@ -1,5 +1,7 @@
+const Spiderman = require('./../app/spiderman')
+
 describe('Prueba Unitaria para agregar datos para un spiderman a la clase spiderman', () =>{
-    Test('Prueba 1 Spiderman objeto', () => {
+    test('Prueba 1 Spiderman objeto', () => {
         // Codogigo que vamos a utlizar tal cual
         const AndrewGarfield = new Spiderman('Spiderman Sony',31,'Angrew GArgield',2,'Sony')
         // Validamos el codigo que esperamos
