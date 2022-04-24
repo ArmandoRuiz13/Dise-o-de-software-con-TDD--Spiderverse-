@@ -12,3 +12,11 @@ describe('Prueba Unitaria para agregar datos para un spiderman a la clase spider
         expect(AndrewGarfield.studio).toBe('Sony')
     })
 })
+describe('Prueba Unitaria para agregar un metodo get a la clase spiderman', () =>{
+    test('Prueba 2 Spiderman usando metodo getInfo()', () => {
+        // Codogigo que vamos a utlizar tal cual
+        const tomHolland = new Spiderman('Spiderman Marvel',25,'Tom Holland',5,'Marvel')
+        // Validamos el codigo que esperamos
+        expect(tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Marvel studio")
+    })
+})
