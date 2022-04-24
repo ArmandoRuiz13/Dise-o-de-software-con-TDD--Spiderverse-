@@ -1,0 +1,15 @@
+{
+  "name": "spiderverse",
+  "version": "1.0.0",
+  "description": "2 proyecto semana 3, diseño con TDD, usando common JS, con tematica spiderverse",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest",
+    "start": "node index.js"
+  },
+  "author": "Armando Ruiz Anaya",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
